@@ -87,3 +87,7 @@ display: inline-block;
   font-size: 19px;
   list-style-type: circle;
 }
+
+#small {
+  font-variant: small-caps;
+}
