@@ -15,11 +15,11 @@ h1, h2 {
 	}
 
 h3 {
-	text-align: center;
+  text-align: center;
 	}
 	
 p {
-	font-size: 19px;
+  font-size: 19px;
 	}
 
 /*Adding the box model*/
@@ -76,7 +76,7 @@ display: inline-block;
 	text-align: center;
 }
 .centered { 
-	text-align: center; 
-	list-style-position:inside;
-	font-size: 19px;
-	}
+  text-align: center; 
+  list-style-position:inside;
+  font-size: 19px;
+  }
