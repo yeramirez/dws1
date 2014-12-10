@@ -40,7 +40,7 @@ p {
 
 /*Adding the box shadow*/
 #firstpic, #secondpic, #thirdpic {
-  box-shadow: 5px #080D3B;
+  box-shadow: 5px 5px 5px #080D3B;
 }
 	
 /*Displaying the images inline*/
