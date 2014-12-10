@@ -11,11 +11,15 @@ h1, h2 {
   background-color: #93EDD4;
   text-transform: lowercase;
   text-align: center;
-  font-weight: normal;
+  font-weight: bold;
 	}
 
 h3 {
 	text-align: center;
+	}
+	
+p {
+	font-size: 19px;
 	}
 
 /*Adding the box model*/
@@ -72,5 +76,7 @@ display: inline-block;
 	text-align: center;
 }
 .centered { 
-	text-align: center; list-style-position:inside;
+	text-align: center; 
+	list-style-position:inside;
+	font-size: 19px;
 	}
