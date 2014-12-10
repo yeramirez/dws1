@@ -1,6 +1,6 @@
 /* Main styles */
 body {
-  background-color: #E8F4FA;
+  background-color: rgba(204, 214, 219, 0.4);
   font-family: 'Poiret One', cursive;
   text-align: center;
   width: 1000px;
@@ -46,7 +46,6 @@ p {
 /*Displaying the images inline*/
 #photoLine {
 display: inline;
-
 }
 
 ul {
