@@ -1,0 +1,72 @@
+body {
+  background-color: #E8F4FA;
+  font-family: 'Poiret One', cursive;
+  max-width: 1080px;
+  margin: 0 auto;
+  
+}
+
+h1, h2 {
+  font-family: 'Poiret One', cursive;
+  background-color: #93EDD4;
+  text-transform: lowercase;
+  text-align: center;
+  font-weight: normal;
+}
+
+h3 {
+	text-align: center;
+}
+
+/*Adding the box model*/
+#firstlist li {
+  display: inline-block;
+  margin-right: 10px;
+  border: 5px solid #ABEDD4;
+  padding: 8px;
+  width: 5px auto;
+  height: 0 auto;
+  border-radius: 5px 10px 5px 10px;
+  text-align: center;
+}
+
+/*Adding the box shadow*/
+#firstpic, #secondpic, #thirdpic {
+  box-shadow: 5px 5px 5px #777777;
+}
+/*Displaying the images inline*/
+#photoLine {
+display: inline;
+
+}
+ul {
+  text-align: center;
+}
+
+a:link {
+  color: #FF8573;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FF8573;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FACC90;
+  text-decoration: underline;
+}
+
+a:active {
+	color: #F2594B
+}
+
+figure{
+display: inline-block;
+}
+
+#centered {
+	text-align: center;
+}
+
