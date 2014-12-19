@@ -125,12 +125,13 @@ display: inline-block;
 
 #body, #page {
   background-color: #EAEBE6;
+  overflow: hidden;
 }
 
 #table {
   float: left;
   text-align: right;
-  padding: 5px 30px 5px 75px;
+  padding: 5px 30px 5px 60px;
   font-size: 90%;
   margin: 5px;
   background-color: #EAEBE6;
@@ -141,19 +142,36 @@ tbody {
   width: 150px;
 }
 
-#rate {
+/*#rate {
   padding-right: 665px;
-}
+}*/
 
-fieldset {
+/*fieldset {
   float: right;
   width: 310px;
   margin-top: 20px;
   border: 1px solid #fff;
 }
-
+*/
 input#button:hover {
   float: right;
   background-color: #4BBEE8;
   cursor: pointer;
 }
+
+#column1of2 {
+ float: left;
+ width: 300px;
+ padding: 0px 25px 65px 45px;
+ margin-left: 64px;
+}
+
+#column2of2 {
+  display: inline;
+  float: left;
+  width: 260px;
+  text-align: center;
+  padding: 0px 0px 45px 25px;
+  margin-right: 64px;
+}
+
