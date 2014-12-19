@@ -82,6 +82,7 @@ a:hover, a#current-page {
 #gallery-content {
   width: 500px;
   margin: 20px auto;
+  border: 2px solid blue;
   overflow: hidden;
 }
 
