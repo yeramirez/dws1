@@ -6,52 +6,52 @@ body {
   margin: 0 auto;
   background: url("../images/pyramid.gif") repeat top left fixed;
   color: #1B202D;
+  font-size: 15px;
 }
 
 /*Adding attributes*/
-h1, h2 {
+h1 {
   font-family: 'Poiret One', cursive;
   text-transform: lowercase;
-  text-align: center;
-  font-weight: bold;
   text-shadow: .125em .125em .125em #fff;
 }
 
 h2 {
-  margin-top: 0;
-  text-decoration: underline;
+  margin: 10px 0px 5px 0px;
+  padding: 0px;
+}
+
+h3 {
+  margin: 0px 0px 10px 0px;
 }
 
 p {
-  font-size: 1.125em;
   line-height: 1.4em;
-}
-
-/*Floating elements*/
-#first {
-  float: left;
-  width: 29%;
-  margin: 8px;
-  padding: 1px;
-}
-
-#second {
-  float: left;
-  width: 29%;
-  margin: 8px;
-  padding: 1px;
-}
-
-#third {
-  float: left;
-  width: 29%;
-  margin: 8px;
-  padding: 1px;
+  width: 250px;
+  height: 250px;
 }
 
 .clear {
   clear: left;
 }
+
+#nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+  list-style: none;
+}
+
+#nav li {
+  display: inline;
+  margin-right: 40px;
+}
+
+#nav, #footer {
+  color: #F6FAFF;
+  background-color: #F3F7FF;
+  height: 26px;
+}
+
 
 /*Adding the box shadow*/
 #firstpic, #secondpic, #thirdpic {
@@ -59,9 +59,9 @@ p {
 }
 	
 /*Displaying the images inline*/
-#photoLine {
+/*#photoLine {
 display: inline;
-}
+}*/
 
 /*Adding Link Attributes*/
 a:link {
@@ -84,9 +84,9 @@ a:active {
 	color: #F2594B
 }
 
-figure{
+/*figure{
 display: inline-block;
-}
+}*/
 
 /* Centered the navigation list*/
 #centered {
@@ -130,7 +130,6 @@ tbody {
 }
 
 input#button:hover {
-  float: right;
   background-color: #4BBEE8;
   cursor: pointer;
 }
@@ -151,23 +150,22 @@ input#button:hover {
   margin-right: 64px;
 }
 
-#rate {
-  padding-right: 70px;
-  margin-bottom: 0px;
+figure {
+  float: left;
+  width: 250px;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid #eeeeee;
 }
 
-#nav ul {
-  margin: 0px;
-  padding: 5px 0px 5px 30px;
-  list-style: none;
+
+#column1 {
+ float: left;
+ width: 300px;
 }
 
-#nav li {
-  display: inline;
-  margin-right: 40px;
-}
+#column2 {
+  float: left;
+  width: 260px;
 
-#nav, #footer {
-  background-color: #F3F7FF;
-  height: 30px;
 }

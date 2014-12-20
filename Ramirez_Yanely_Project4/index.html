@@ -10,41 +10,74 @@
 	  <div id="page">
 	   	<div id="header">
 			<h1 id="top">Yanely's Photography</h1>
+			  <nav id="nav">
 				<ul id="firstlist">
-					<li><a href="#about">About</a></li>
 					<li><a href="#location">Location</a></li>
 					<li><a href="#contact">Contact</a></li>
 					<li><a href="#rate">Rate</a></li>
 				</ul>
+			  </nav>
 		</div><!-- Closes header div -->
 	  	  <div id="body">	
-			<h2 id="about">About:</h2><!-- Floating elements -->
-				<p id="first"><strong>Yanely's Photography</strong> started in 2014, this week actually. I have taken up photography and have started to indulge in all the aesthetics of it to try and become a better one and possibly a professional.</p>
-				<p id="second">The camera I use is the <em>iPhone 5c</em>. For me it works great and always captures the image I like. When using the iPhone at the right angle and with the right lighting, everything is possible.</p>
-				<p id="third"><em><abbr title="Yanely's Photography">YP</abbr></em> has been influenced by several different types of photography. Some of the photography that I like are (in order from best to least best):</p>
-					<ol class="centered">
-						<li>Nature</li>
-						<li>Action</li>
-						<li>Portraits</li>
-						<li>Landscape</li>
-					</ol>
-			<div id="photoLine"><!-- Photo links -->
+			<section id="column1">
+			 <div>
+			 <article>
 				<figure class="images">	
 					<a href="images/carsbig.jpg">
 					<img src="images/carssmall.jpg" id="firstpic" alt="Park Picture"/></a>
-					<figcaption>Cars on East Colonial</figcaption>
 				</figure>
+				<hgroup>
+				  <h2>Car</h2>
+				  <h3>Location: Mills Road</h3>
+				</hgroup>
+				<p>On a busy morning, I took a trip to the post office and caught this fantastic picture. The sky was beautiful and created peacefulness in the middle of chaos.</p>
+			 </article>
+			 </div>
+			 <div class="article">
+			 <article>
 				<figure class="images">	
 					<a href="images/swansbig.jpg">	
-					<img src="images/swanssmall.jpg" id="secondpic" alt="Park Picture"/></a>    
-					<figcaption>Swans by Lake Eola</figcaption>
-				</figure>			
+					<img src="images/swanssmall.jpg" id="secondpic" alt="Park Picture"/></a>
+				</figure>
+				<hgroup>
+				  <h2>Swan</h2>
+				  <h3>Location: Lake Eola</h3>
+				</hgroup>
+				<p>If you haven't checked out Lake Eola while you stay here in Orlando, then you are definitely missing out. This lake gets adorned with lights around Christmas time and gives off beautiful vibes.</p>
+			 </article>
+			 </div>
+			 <div class="article">
+			 <article>
 				<figure class="images">	
 					<a href="images/leafbig.jpg">	
 					<img src="images/leafsmall.jpg" id="thirdpic" alt="Leaf"/></a>
-					<figcaption>Up close leaf</figcaption>
-				</figure>		
-			</div><!-- Closes photoLine div -->
+				</figure>
+				<hgroup>
+				  <h2>Leaf</h2>
+				  <h3>Location: Home</h3>
+				</hgroup>
+				<p>It was a peaceful day when I decided to capture the moment where a leaf had blossomed. The up-close feature lets you see the detail and texture.</p>
+			 </article>	
+			 </div>	
+		    </section>
+			
+			<section id="column2">
+			<div id="sidebar">
+   			 <div id="contact-details">
+    		  <h2>Do you enjoy taking pictures?</h2>
+      			<p></p>
+   			 </div>
+			    <form action="http://www.example.com/form.php" method="post">
+			      <div class="radio-buttons">
+					<span class="title">Answer:</span>
+					<input type="radio" name="answer" id="yes" value="Y" /> 
+					<label for="yes">Yes</label>
+					<input type="radio" name="answer" id="no" value="N" />
+					<label for="no">No</label><br />
+				  </div>
+				</form>
+			</div>
+			</section>
 			<h2 id="location">Location</h2>	
 	  	  		<p>1640 Salem Dr. <br />Orlando, Fl 32807</p>
 	  	    <section id="column1of2"> 
@@ -105,6 +138,8 @@
 	  	  		<a href="http://www.linkedin.com">LinkedIn</a><br />
 	  	  		<a href="http://www.google.com">Google+</a><br /></p>
 			<p id="small"><a href="#top">Back To Top</a></p>
+			<div id="footer">&copy; Yanely Ramirez
+			</div>
 		  </div><!-- Closes body div -->
 	  </div><!-- Closes page div -->
 	</body>
