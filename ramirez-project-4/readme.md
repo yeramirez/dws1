@@ -2,4 +2,4 @@
 
 The Practical is our final for the class.
 
-[Go to website](http://yeramirez.github.io/dws1/Ramirez_Yanely_Practical/index.html)
+<a href="http://yeramirez.github.io/dws1/Ramirez_Yanely_Practical/index.html" target="_blank">Go to Website</a>
