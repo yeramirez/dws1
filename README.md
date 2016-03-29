@@ -4,4 +4,6 @@ This class was focused on teaching us CSS and all of its possibilities. I learne
 
 _Please don't judge my stuff too hard, this was my first attempt ever at CSS-ing something and not let it just be black and white. Thank you._
 
-Created: December 2014
+To start, just click on any folder.
+
+**Created: December 2014**
