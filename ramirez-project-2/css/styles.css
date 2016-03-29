@@ -21,8 +21,12 @@ h3 {
 }
 	
 p {
+<<<<<<< HEAD:ramirez-project-2/css/styles.css
   font-size: 19px;
   line-height: 1.4em;
+=======
+	font-size: 19px;
+>>>>>>> parent of 2540d88... Fixed style layout:Ramirez_Yanely_Project2/css/styles.css
 }
 
 /*Adding the box model*/
@@ -81,6 +85,7 @@ display: inline-block;
 	text-align: center;
 }
 .centered { 
+<<<<<<< HEAD:ramirez-project-2/css/styles.css
   text-align: center; 
   list-style-position: inside;
   font-size: 19px;
@@ -90,3 +95,9 @@ display: inline-block;
 #small {
   font-variant: small-caps;
 }
+=======
+ 	text-align: center;
+ 	list-style-position:inside;
+ 	font-size: 19px;
+	}
+>>>>>>> parent of 2540d88... Fixed style layout:Ramirez_Yanely_Project2/css/styles.css
